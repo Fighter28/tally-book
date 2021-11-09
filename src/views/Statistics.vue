@@ -24,18 +24,24 @@ export default class statistics extends Vue {
   type = '-';
   interval = 'day';
   intervalList = intervalList;
-  recordTypeList = recordTypeList;}
+  recordTypeList = recordTypeList;
+}
 </script>
 <style scoped lang="scss">
-::v-deep .types-tabs-item {
-  background: white;
+::v-deep {
+  .types-tabs-item {
+    background: white;
 
-  &.selected {
-    background: #c4c4c4;
+    &.selected {
+      background: #c4c4c4;
 
-    &::after {
-      display: none;
+      &::after {
+        display: none;
+      }
     }
+  }
+  .interval-tabs-item{
+    height: 48px;
   }
 }
 </style>
