@@ -1,4 +1,10 @@
+import RecordItem from '@/recordLIst';
 
+type RootState = {
+    recordList: RecordItem[],
+    tagList: Tag[],
+    currentTag?: Tag
+}
 type Tag = {
     id: string;
     name: string;

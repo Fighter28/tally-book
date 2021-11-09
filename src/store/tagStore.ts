@@ -1,5 +1,5 @@
 import createId from "@/lib/createId";
-
+import {Tag} from '@/custom';
 const localStorageKeyName = 'tagList'
 
 const tagStore = {
