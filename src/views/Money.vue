@@ -2,8 +2,7 @@
   <Layout class-prefix="layout">
     <NumberPad :value.sync="record.amount" @submit="saveRecord"/>
     <Tabs :data-source="recordTypeList"
-          :value.sync="record.type"
-    />
+          :value.sync="record.type"/>
     <div class="notes">
       <FormItem field-name="备注" @update:value="onUpdateNotes" placeholder="在这里输入备注"/>
     </div>
@@ -49,7 +48,7 @@ export default class money extends Vue {
 }
 </script>
 <style lang="scss" scoped>
-.layout-content {
+::v-deep .layout-content {
   display: flex;
   flex-direction: column-reverse;
 }
