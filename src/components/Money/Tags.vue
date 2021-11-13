@@ -11,7 +11,7 @@
     </ul>
   </div>
 </template>
-
+v
 <script lang="ts">
 import {Component} from 'vue-property-decorator';
 import {mixins} from 'vue-class-component';
