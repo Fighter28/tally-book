@@ -8,6 +8,11 @@
 @import "~@/assets/style/reset.scss";
 @import "~@/assets/style/helper.scss";
 
+#app {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -18,8 +23,4 @@ body {
   background: #f5f5f5;
 }
 
-#app {
-  max-width: 500px;
-  margin: 0 auto;
-}
 </style>
